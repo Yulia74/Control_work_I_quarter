@@ -4,7 +4,7 @@ PrintArray(array);
 
 Console.Write(" -> ");
 
-int lengthNewarray = ArrLength(array);                     
+int lengthNewArray = ArrLength(array);                     
                                                            
 string[] resArray = NewArray(array);                       
 
@@ -44,7 +44,7 @@ string[] NewArray(string[] array)
 {
     int index = 0;
     
-    string[] resArray = new string[lengthNewarray];
+    string[] resArray = new string[lengthNewArray];
 
     for (int i = 0; i < array.Length; i++)
     {
